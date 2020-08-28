@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Trent</title>
+<!-- Meta -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="favicon.ico" rel="shortcut icon"/>
+<!-- FontAwesome JS-->
+<script crossorigin="anonymous" defer="" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"></script>
+<!-- Theme CSS -->
+<link href="assets/css/theme-5.css" id="theme-style" rel="stylesheet"/>
+</head>
+<body>
+<header class="header text-center">
+<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Trent</a></h1>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<button aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navigation" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse flex-column" id="navigation">
+<div class="profile-section pt-3 pt-lg-0">
+<img alt="image" class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/me.jpg"/>
+<div class="bio mb-3">Hi, my name is Trent Robison. I am a Software Engineer.</div><!--//bio-->
+<ul class="social-list list-inline py-3 mx-auto">
+<li class="list-inline-item"><a href="https://www.linkedin.com/in/trenton-robison-085926a9/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+<li class="list-inline-item"><a href="https://github.com/t1miller"><i class="fab fa-github-alt fa-fw"></i></a></li>
+<li class="list-inline-item" onclick="toggleEmailVisibility()"><a href="#"><i class="fas fa-envelope"></i></a></li>
+</ul><!--//social-list-->
+<div class="bio mb-3" id="emailAddress" style="display: none;">trentrobison _at_ gmail.com</div>
+<hr/>
+</div><!--//profile-section-->
+<ul class="navbar-nav flex-column text-left">
+<li class="nav-item active">
+<a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+</li>
+<!-- <li class="nav-item">
+					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					</li> -->
+</ul>
+<!-- <div class="my-2 my-md-3">
+				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
+				</div> -->
+</div>
+</nav>
+</header>
+<div class="main-wrapper">
+<section class="blog-list px-3 py-5 p-md-5">
+<div class="container">
+<h3 class="mt-5 mb-3">Education</h3>
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/ucsd.png"/>
+<div class="media-body">
+<h3 class="title mb-1">M.S. Computer Science UCSD</h3>
+<div class="meta mb-1"><span class="date">2019</span></div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/ucsd.png"/>
+<div class="media-body">
+<h3 class="title mb-1">B.S. Computer Engineering UCSD</h3>
+<div class="meta mb-1"><span class="date">2017</span></div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<h3 class="mt-5 mb-3">Work Experience</h3>
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/hpsmart.png"/>
+<div class="media-body">
+<h3 class="title mb-1">HP - Software Engineer</h3>
+<div class="meta mb-1"><span class="date">2019-2020</span></div>
+<div class="intro">Worked on the <a href="https://play.google.com/store/apps/details?id=com.hp.printercontrol&amp;hl=en_US">HP Smart Android app</a>. While on the smart team I helped integrate various APIs and contributed to client-side bluetooth printer setup. (Kotlin, Java, and TypeScript)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/hp.png"/>
+<div class="media-body">
+<h3 class="title mb-1">HP - Software Engineer Intern</h3>
+<div class="meta mb-1"><span class="date">Summer 2016, 2017 and 2018</span></div>
+<div class="intro">Helped automate localization testing. Created Android logging tools to help diagnose printer network problems. (Java)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/cubic.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Cubic - Software Engineer Intern</h3>
+<div class="meta mb-1"><span class="date">Summer 2015</span></div>
+<div class="intro">On a team of 3 we created a system that allowed customers to use facial recognition instead of a transit tap card. To build this system we created an Android App, used BLE beacons, and used existing facial recognition models. </div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<h3 class="mt-5 mb-3">Projects</h3>
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/burrd.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Android App: Burrd</h3>
+<div class="meta mb-1"><span class="date">2015-2017</span></div>
+<div class="intro">Burrd is a company that started off as a class project with 10 people and grew into much more. We developed an Android app that finds happy hour promotions near your location. <a href="https://github.com/TheBurrd">Checkout the code!</a> (Java)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/pebble.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Pebble App</h3>
+<div class="intro">Wrote a tide application for the Pebble watch. As a lifelong surfer myself I created this because the existing tide watches were unusable. <a href="https://github.com/t1miller/pebbletide">Checkout the code!</a> (C and JS)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/bug.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Machine Learning: Flagging Unsafe Commits</h3>
+<div class="intro">Created a classifier to flag a git commit as safe or not safe. We got our data from Firefox's large public git repository. We labeled the commits as safe or not safe using <a href="https://bugzilla.mozilla.org/home">Bugzilla</a> (which tracks Firefox security bugs). For features, we used data from each commit, such as file extension, time of day, lines changed, etc., to train the model. (Python)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/chord.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Distributed System: Improving Chord</h3>
+<div class="intro">Implemented a lower-latency version of <a href="https://en.wikipedia.org/wiki/Chord_(peer-to-peer)">Chord</a> (distributed hash table algorithm) using <a href="https://en.wikipedia.org/wiki/Vivaldi_coordinates">Vivaldi</a> synthetic coordinates and other techniques. (Python)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+<div class="item mb-5">
+<div class="media">
+<img alt="image" class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/letItRyde.png"/>
+<div class="media-body">
+<h3 class="title mb-1">Android App: Let It Ryde</h3>
+<div class="meta mb-1"><span class="date">2012</span></div>
+<div class="intro">Wrote a popular poker game <a href="https://www.amazon.com/Trikal-Let-it-Ryde-free/dp/B008T3VIUG">Let it Ryde</a>. I wanted to practice this game after a Vegas trip and the two existing apps were unusable. (Java)</div>
+</div><!--//media-body-->
+</div><!--//media-->
+</div><!--//item-->
+</div>
+</section>
+</div><!--//main-wrapper-->
+<!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
+<!-- <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+            </ul>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div>
+    </div> -->
+<!-- Javascript -->
+<script src="assets/plugins/jquery-3.3.1.min.js"></script>
+<script src="assets/plugins/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+<!-- <script src="assets/js/demo/style-switcher.js"></script>      -->
+<script>
+	function toggleEmailVisibility() {
+		var x = document.getElementById("emailAddress");
+		if (x.style.display === "none") {
+		  x.style.display = "block";
+		} else {
+		  x.style.display = "none";
+		}
+	  }
+	</script>
+</body>
+</html>
